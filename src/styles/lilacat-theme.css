@@ -51,14 +51,14 @@ body.lilacat-theme {
 }
 
  body.lilacat-theme .sidebar__navigation {
-    background-image: url(/src/assets/icons/cat.png);
+    background-image: url("../assets/icons/cat.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;    
 }
 
 body.lilacat-theme .library {
-    background-image: url(/src/assets/icons/cat.png);
+    background-image: url("../assets/icons/cat.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;    
