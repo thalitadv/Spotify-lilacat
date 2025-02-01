@@ -1,0 +1,94 @@
+.sidebar__theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 150px;
+}
+
+.theme-title {
+    color: var(--text-color);
+}
+
+.toggle-container {
+    margin-top: 20px;
+}
+
+.toggle {
+    width: 60px;
+    height: 30px;
+    background-color: #c3afea;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-ball {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #6350BA;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.3s ease;
+}
+
+
+body.lilacat-theme {
+    --main-color: #6350BA;   
+    --secondary-color: #331177;   
+    --text-color: #f8f8f8; 
+    --login-bg: #fff;
+    --bg-icon: #353338; 
+    --bg-arrow-color: #331177;
+    --footer-color-one:  #331177; 
+    --footer-color-two:  #8877d7; 
+}
+
+ body.lilacat-theme .sidebar__navigation {
+    background-image: url(/src/assets/icons/cat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+body.lilacat-theme .library {
+    background-image: url(/src/assets/icons/cat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+body.lilacat-theme .header__search {
+    background-color: #fff;
+}
+
+body.lilacat-theme #search-input {
+    color: #000;
+}
+
+body.lilacat-theme .header__search span {
+    color: #1e1e1e;
+}
+
+body.lilacat-theme .artist-card {
+    background: #9284d2;
+}
+
+
+body.lilacat-theme .header__login .subscribe {
+    color: #000;
+}
+  
+body.lilacat-theme .toggle {
+    background-color: #333333; 
+}
+  
+body.lilacat-theme .toggle-ball {
+    left: 32px; 
+}
